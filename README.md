@@ -53,7 +53,7 @@ The reproduction is split into two phases: **1. Fast Offline Reproduction** (rep
 
 ### Phase 1: Fast Output Verification (Tables & Figures)
 
-**⭐ 1-Click Automated Generation (Recommended):**
+**⭐ 1-Click Automated Generation:**
 For maximum convenience, you can generate all figures, tables, and statistics automatically using the provided batch/shell scripts at the root of `replication/`:
 
 **Windows:**
@@ -85,7 +85,7 @@ python test_statistical_significance.py
 python plot_sensitivity.py
 ```
 
-### Phase 2: Re-running the Search Algorithms (Smoke Testing)
+### Phase 2: Re-running the Search Algorithms
 
 To execute the quantum-inspired optimization algorithms and rebuild the CSV raw metrics computationally from scratch:
 
