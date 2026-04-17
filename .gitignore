@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+tables_and_figures/*
+!tables_and_figures/.gitkeep
